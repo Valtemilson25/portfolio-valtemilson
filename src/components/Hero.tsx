@@ -29,24 +29,24 @@ const Hero = () => {
 
           {/* Hero Content */}
           <div className="text-center lg:text-left max-w-2xl animate-slide-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
               Valtemilson Marques<br />do Nascimento
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8">
+            <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
               Especialista em Infraestrutura e Comunicações
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <a
                 href="tel:+5561993084630"
-                className="flex items-center gap-2 px-6 py-3 bg-white text-primary rounded-lg font-semibold hover:bg-white/90 transition-all duration-300 hover:shadow-[var(--shadow-soft)] hover:-translate-y-1"
+                className="flex items-center gap-2 px-6 py-3 bg-white text-primary rounded-lg font-semibold hover:bg-white/95 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 <Phone className="w-5 h-5" />
                 +55 (61) 9.9308.4630
               </a>
               <a
                 href="mailto:valtemilson@hotmail.com"
-                className="flex items-center gap-2 px-6 py-3 bg-white/10 text-white border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)] hover:-translate-y-1"
+                className="flex items-center gap-2 px-6 py-3 bg-white/20 text-white border-2 border-white rounded-lg font-semibold backdrop-blur-sm hover:bg-white hover:text-primary transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 <Mail className="w-5 h-5" />
                 valtemilson@hotmail.com
