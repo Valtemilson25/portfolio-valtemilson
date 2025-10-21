@@ -46,7 +46,7 @@ const Hero = () => {
               </a>
               <a
                 href="mailto:valtemilson@hotmail.com"
-                className="flex items-center gap-2 px-6 py-3 bg-white/20 text-white border-2 border-white rounded-lg font-semibold backdrop-blur-sm hover:bg-white hover:text-primary transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                className="flex items-center gap-2 px-6 py-3 bg-white/40 text-white border-2 border-white rounded-lg font-semibold backdrop-blur-md hover:bg-white hover:text-primary transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 <Mail className="w-5 h-5" />
                 valtemilson@hotmail.com
