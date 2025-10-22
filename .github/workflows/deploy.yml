@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write       # 👈 garante permissão de escrita para criar o branch
   pages: write
   id-token: write
 
@@ -37,7 +37,7 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Confirme que seu build está em dist/
+          path: ./dist  # confirme que a build gera nesta pasta
 
   deploy:
     runs-on: ubuntu-latest
